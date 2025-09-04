@@ -1,0 +1,71 @@
+body {
+    font-family: 'Merriweather', serif;
+    background-color: #f0e9e0;
+    color: #3a332d;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+#game-container {
+    max-width: 650px;
+    margin: 20px auto;
+    padding: 30px;
+    border: 3px solid #7d6b5f;
+    background-color: #faf6f2;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #c8b7a6;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+h1 {
+    font-family: 'IM Fell English SC', serif;
+    font-size: 2.8em;
+    color: #5d4037;
+    margin: 0;
+}
+
+.subtitle {
+    font-style: italic;
+    color: #6d5f53;
+    margin-top: 5px;
+}
+
+#story-text {
+    margin-bottom: 25px;
+    font-size: 1.1em;
+}
+
+.choice-button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 1em;
+    font-family: 'Merriweather', serif;
+    cursor: pointer;
+    background-color: #e3dcd5;
+    color: #3a332d;
+    border: 1px solid #a1887f;
+    text-align: left;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.choice-button:hover {
+    background-color: #d7ccc8;
+    transform: translateY(-2px);
+}
+
+#stats-container {
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 2px solid #c8b7a6;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+}
